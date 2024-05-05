@@ -9,11 +9,11 @@
 // console.log (result);
 
 
-// function store_total_value (unit_price, quantity_in_stock){
-//     let store_total_value = unit_price * quantity_in_stock;
+// function product_total_value (unit_price, quantity_in_stock){
+//     let product_total_value = unit_price * quantity_in_stock;
 //     return (TotalValue)
 // }
-//     let Total = store_total_value(1.50, 100);
+//     let Total = product_total_value(1.50, 100);
 //     console.log(Total);
 
 //-----------------------User Input----------------------//
