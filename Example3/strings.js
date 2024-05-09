@@ -1,12 +1,12 @@
 //String
-let single_quotes_string = 'This is a string using single quotes.';
-console.log(single_quotes_string)
+// let single_quotes_string = 'This is a string using single quotes.';
+// console.log(single_quotes_string)
 
-let double_quotes_string = "This is a string using double quotes.";
-console.log(double_quotes_string)
+// let double_quotes_string = "This is a string using double quotes.";
+// console.log(double_quotes_string)
 
-let backticks_string = `This's a string using backticks.`;
-console.log(backticks_string)
+// let backticks_string = `This's a string using backticks.`;
+// console.log(backticks_string)
 
 
 

@@ -11,7 +11,7 @@
 
 // function product_total_value (unit_price, quantity_in_stock){
 //     let product_total_value = unit_price * quantity_in_stock;
-//     return (TotalValue)
+//     return (product_total_value)
 // }
 //     let Total = product_total_value(1.50, 100);
 //     console.log(Total);
@@ -43,7 +43,7 @@
 
 //--------------------------Control Flow--------------------//
 
-// Declare a variable
+// // Declare a variable
 // let quantity_in_stock = 20;
 
 // // Use the variable in a conditional statement
@@ -64,7 +64,7 @@
 //     console.log(i);
 // }
 
-// let unit_prices = [3, 5, 7]; // Different unit prices for different products
+let unit_prices = [3, 5, 7]; // Different unit prices for different products
 
 // function applyDiscount(discountPercentage) {
 //     for (let i = 0; i < unit_prices.length; i++) {
@@ -74,5 +74,5 @@
 //     }
 // }
 
-// applyDiscount(0.10);  // Apply a 10% discount to each product price
+//  applyDiscount(0.10);  // Apply a 10% discount to each product price
 

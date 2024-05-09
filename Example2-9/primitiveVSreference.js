@@ -10,10 +10,29 @@
 
 
 //-----------------------------------------------------------------------------------------//
-// Reference
+// Reference (const)
 
 // const fruit_products = ['apple', 'banana', 'mango', 'strawberry'];
-// const new_fruit_product = fruit_products;
+// const new_fruit_products = fruit_products;
+
+// console.log('fruit products: ',fruit_products);
+// console.log('fruit products: ',new_fruit_products);
+
+//  fruit_products[2] = 'orange';
+// console.log('fruit products: ',fruit_products);
+// console.log('new fruit products: ', new_fruit_products);
+
+// new_fruit_products[1] = 'pear';
+
+// console.log('fruit products: ',fruit_products);
+// console.log('new fruit products: ', new_fruit_products);
+
+
+//----------------------------------------------------------------------------------------//
+// Reference(let)
+
+// let fruit_products = ['apple', 'banana', 'mango', 'strawberry'];
+// let new_fruit_product = fruit_products;
 
 // console.log('fruit products: ',fruit_products);
 
@@ -25,22 +44,6 @@
 
 // console.log('fruit products: ',fruit_products);
 // console.log('new fruit products: ', new_fruit_product);
-//----------------------------------------------------------------------------------------//
-// Reference
-
-let fruit_products = ['apple', 'banana', 'mango', 'strawberry'];
-let new_fruit_product = fruit_products;
-
-console.log('fruit products: ',fruit_products);
-
-fruit_products[2] = 'orange';
-console.log('fruit products: ',fruit_products);
-console.log('new fruit products: ', new_fruit_product);
-
-new_fruit_product[1] = 'pear';
-
-console.log('fruit products: ',fruit_products);
-console.log('new fruit products: ', new_fruit_product);
 //----------------------------------------------------------------------------------------//
 
 
