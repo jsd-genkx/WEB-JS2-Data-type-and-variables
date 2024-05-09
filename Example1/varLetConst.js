@@ -121,7 +121,7 @@ function exampleFunction() {
   }
   
   exampleFunction(); // Output: 'I am a local variable'
-  console.log(localVar); // Output: Uncaught ReferenceError: localVar is not defined
+ // console.log(localVar); // Output: Uncaught ReferenceError: localVar is not defined
 
 //global
 var globalVar = 'I am a global variable';
