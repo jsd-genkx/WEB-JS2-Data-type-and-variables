@@ -19,7 +19,7 @@
 // console.log("Product ID:", productId); // Output: 1
 
 // // Attempting to reassign the product ID will result in an error
-// // productId = 2; // Error: Assignment to constant variable.
+// productId = 2; // Error: Assignment to constant variable.
 
 
 // var discountPercentage = 10;
@@ -33,18 +33,18 @@
 
 
 // //-------------------------------------------Scope-------------------------------------
-
+//  let quantityInStock =   300;
 // {
 //   let quantityInStock = 100;
 //   console.log("Initial Quantity:", quantityInStock); // Output: 100
 
 //   // Simulating a purchase where the quantity decreases
-//   quantityInStock = quantityInStock - 50;
+//   quantityInStock = quantityInStock - 30;
 //   console.log("Updated Quantity:", quantityInStock); // Output: 50
 // }
 
-// // Trying to access quantityInStock here will result in an error
-// console.log("Quantity Outside Scope:", quantityInStock); // Error: quantityInStock is not defined
+// // // // Trying to access quantityInStock here will result in an error
+//  console.log("Quantity Outside Scope:", quantityInStock); // Error: quantityInStock is not defined
 
 
 // {
@@ -58,7 +58,7 @@
 // // Trying to access productId here will result in an error
 // console.log("Product ID Outside Scope:", product_id); // Error: productId is not defined
 
-
+// var discountPercentage = 100;
 // {
 //   var discountPercentage = 10;
 //   console.log("Discount Percentage:", discountPercentage); // Output: 10
@@ -68,7 +68,7 @@
 //   console.log("Updated Discount Percentage:", discountPercentage); // Output: 15
 // }
 
-// // Accessing discountPercentage outside the block still works
+// // // Accessing discountPercentage outside the block still works
 // console.log("Discount Percentage Outside Scope:", discountPercentage); // Output: 15
 
 
@@ -79,7 +79,7 @@
 // }
 
 // discountPercentageFunction();
-// // Accessing localVar outside the function will result in an error
+// // // Accessing localVar outside the function will result in an error
 // console.log(discountPercentageFuntion); // Error: localVar is not defined
 
 

@@ -12,15 +12,15 @@
 //-----------------------------------------------------------------------------------------//
 // Reference (const)
 
-// const fruit_products = ['apple', 'banana', 'mango', 'strawberry'];
-// const new_fruit_products = fruit_products;
+const fruit_products = ['apple', 'banana', 'mango', 'strawberry'];
+const new_fruit_products = fruit_products;
 
-// console.log('fruit products: ',fruit_products);
-// console.log('fruit products: ',new_fruit_products);
+console.log('fruit products: ',fruit_products);
+console.log('fruit products: ',new_fruit_products);
 
-//  fruit_products[2] = 'orange';
-// console.log('fruit products: ',fruit_products);
-// console.log('new fruit products: ', new_fruit_products);
+ fruit_products[2] = 'orange';
+console.log('fruit products: ',fruit_products);
+console.log('new fruit products: ', new_fruit_products);
 
 // new_fruit_products[1] = 'pear';
 
@@ -53,6 +53,8 @@
 
 // let x = 10;
 // let y = x;
+// console.log(x);
+// console.log(y);
 
 // x = 20;
 

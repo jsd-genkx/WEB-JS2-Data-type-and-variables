@@ -36,10 +36,11 @@ console.log(list_Products[5]); // Output: undefined (index 5 doesn't exist in th
 
 
   //you can check undefined
-  let product_color;
+  let product_color='' ;
     if (typeof product_color === 'undefined') {
-      console.log('a is undefined');
+      console.log('product_color is undefined', product_color);
     }
+    console.log('product_color is', product_color);
 
 
 //-----------------------------------------------------------------------------------------------//

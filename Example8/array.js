@@ -1,4 +1,4 @@
-// //Array
+//Array
 // const njmkl = ["Neeti","James","Mean","Kan","Lak"];
 // console.log (njmkl);  
 
@@ -56,6 +56,7 @@
 // function addItemToCart(item) {
 //   shoppingCart.push(item);
 //   console.log(`Item added: ${item}`);
+ 
 // }
 
 // // Example items
@@ -65,21 +66,22 @@
 // // Add items to the cart
 // addItemToCart(item1);
 // addItemToCart(item2);
+// console.log(shoppingCart)
 
 
 // // Define an array to hold the items in the shopping cart
-// let shoppingCart = [];
+let shoppingCart = [];
 
-// // Function to add an item to the cart
-// function addItemToCart(item) {
-//   shoppingCart.push(item);
-//   console.log(`Item added: ${item.name} ${item.price}`);
-// }
+// Function to add an item to the cart
+function addItemToCart(item) {
+  shoppingCart.push(item);
+  console.log(`Item added: ${item.name} £${item.price}`);
+}
 
-// // Example items
-// const item1 = { name: 'JavaScript Book', price: 29.99 };
-// const item2 = { name: 'Coffee Mug', price: 9.99 };
+// Example items
+const item1 = { name: 'JavaScript Book', price: 29.99 };
+const item2 = { name: 'Coffee Mug', price: 9.99 };
 
-// // Add items to the cart
-// addItemToCart(item1);
-// addItemToCart(item2);
+// Add items to the cart
+addItemToCart(item1);
+addItemToCart(item2);

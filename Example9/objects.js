@@ -19,6 +19,9 @@ console.log(person['age']);       // Output: 30
 console.log(person['gender']);    // Output: 'male'
 console.log(person['isEmployed']);// Output: true
 
+const person_name ='gender';
+console.log(person[person_name])
+
 //assign a new value
 person.age = 31;
 console.log(`${person.firstName} is ${person.age} years old`)
@@ -26,8 +29,15 @@ console.log(`${person.firstName} is ${person.age} years old`)
 // Adding a new key and value
 person.hobby = "reading";
 console.log(person.hobby);
+console.log(person);
+
+//use bracket notation with special letters
+person['!important'] = 'special';
 
 
+// Access the property using bracket notation
+console.log(person['!important']); // special
+console.log(person)
 
 // Removing a key-value pair
 delete person.age;
@@ -135,3 +145,47 @@ console.log(person);
 
 // console.log(mobilePhone.anotherModel.brand); // Output: 'Apple'
 // console.log(mobilePhone.anotherModel.year); // Output: 2021
+
+
+//------------------------------------------------------Inventory--------------------------------//
+const inventory = {
+  product1: {
+      product_name: "Sticky Notes",
+      quantity_in_stock: 20,
+      unit_price: 0.8,
+      checkStock() {
+        return (this.quantity_in_stock);
+    }
+  },
+  product2: {
+      product_name: "Highlighters",
+      quantity_is_stock: 15,
+      unit_price: 2,
+      checkStock() {
+        return  this.quantity_is_stock;
+    }
+  },
+  product3: {
+      product_name: "All-Purpose Cleaner",
+      product_brand: "The pink stuff",
+      size: "500ml",
+      scent: "Lemon",
+      quantity_in_stock: null,
+      unit_price: 2.5,
+      checkStock() {
+        return (this.quantity_in_stock);
+    }
+  }
+};
+
+// User input to select the product
+const selectedProduct = 'product1'; // This value can be dynamic based on user input
+
+// Accessing information about the selected product using dot notation
+console.log(`Product name: ${inventory[selectedProduct].product_name}`);
+console.log(`Quantity in stock: ${inventory[selectedProduct].quantity_in_stock}`);
+console.log(`Unit price: $${inventory[selectedProduct].unit_price}`);
+console.log(`check stock: ${inventory[selectedProduct].checkStock()}`);
+
+
+

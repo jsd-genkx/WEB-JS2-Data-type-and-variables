@@ -1,15 +1,15 @@
 //const isRaining = true;
-const hasPermission = false;
-const isValid = 10 > 5; // This will be true, as 10 is greater than 5
+// const hasPermission = false;
+// const isValid = 10 > 5; // This will be true, as 10 is greater than 5
 
 
-const isRaining = true;
+// const isRaining = true;
 
-if (isRaining) {
-  console.log('Remember to bring an umbrella!');
-} else {
-  console.log('No need for an umbrella today.');
-}
+// if (isRaining) {
+//   console.log('Remember to bring an umbrella!');
+// } else {
+//   console.log('No need for an umbrella today.');
+// }
 
 
 //--------------------Sell product-------------//

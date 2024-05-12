@@ -25,7 +25,7 @@
 
 
 //---------------------Reusing Values-------------------//
-// Declare a variable
+//Declare a variable
 // let taxRate = 0.07;
 
 // // Calculate the tax for different amounts
@@ -53,16 +53,16 @@
 //     console.log('Quantity in stock = ' + quantity_in_stock + " is negative.");
 // } else {
 //     console.log(number + " is zero.");
-// }
+//}
 
 //----------------------------Iteration-----------------------//
 // Declare a variable for the number of iterations
-// let iterations = 5;
+let iterations = 5;
 
-// // Use a for loop to print the numbers
-// for (let i = 1; i <= iterations; i++) {
-//     console.log(i);
-// }
+// Use a for loop to print the numbers
+for (let i = 1; i <= iterations; i++) {
+    console.log(i);
+}
 
 let unit_prices = [3, 5, 7]; // Different unit prices for different products
 
