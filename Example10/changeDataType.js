@@ -1,27 +1,27 @@
 // ------------------------------------------------------Inventory---------------------------------------//
 //change data type
-// let size_quantity = 100;
-// console.log('size_quantity before assign is: ',typeof(size_quantity));
+// let sizeQuantity = 100;
+// console.log('sizeQuantity before assign is: ',typeof(sizeQuantity));
 
-// size_quantity = 'pack of 100';
-// console.log(size_quantity);
-// console.log('size_quantity after assign is: ',typeof(size_quantity));
+// sizeQuantity = 'pack of 100';
+// console.log(sizeQuantity);
+// console.log('sizeQuantity after assign is: ',typeof(sizeQuantity));
 
 
 // // Converting a string to a number
 
-// let size_quantity = '250'
-// console.log('size_quantity before convert: ',typeof(size_quantity));
+// let sizeQuantity = '250'
+// console.log('sizeQuantity before convert: ',typeof(sizeQuantity));
 
-// let size_quantityNumber =  parseInt(size_quantity);
-// console.log('size_quantity after convert: ',typeof(size_quantityNumber));
+// let sizeQuantityNumber =  parseInt(sizeQuantity);
+// console.log('sizeQuantity after convert: ',typeof(sizeQuantityNumber));
 
 
 
 // //Converting a number to a string
-// let size_quantity = 300;
-// console.log('size_quantity before convert: ',typeof(size_quantity));
+// let sizeQuantity = 300;
+// console.log('sizeQuantity before convert: ',typeof(sizeQuantity));
 
-// let size_quantityString = toString(size_quantity)
-// console.log('size_quantity after convert: ',typeof(size_quantityString));
+// let sizeQuantityString = toString(sizeQuantity)
+// console.log('sizeQuantity after convert: ',typeof(sizeQuantityString));
 

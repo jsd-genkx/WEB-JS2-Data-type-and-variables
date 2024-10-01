@@ -19,8 +19,8 @@ console.log(person['age']);       // Output: 30
 console.log(person['gender']);    // Output: 'male'
 console.log(person['isEmployed']);// Output: true
 
-const person_name ='gender';
-console.log(person[person_name])
+const personName ='gender';
+console.log(person[personName])
 
 //assign a new value
 person.age = 31;

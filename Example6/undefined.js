@@ -30,9 +30,9 @@ addProduct(); // Output: 'add new prodcut, undefined' (productName parameter is 
 
 
 //an array element doesn't exist
-const list_Products = ['apple', 'banana', 'mango'];
+const productList = ['apple', 'banana', 'mango'];
 
-console.log(list_Products[5]); // Output: undefined (index 5 doesn't exist in the array)
+console.log(productList[5]); // Output: undefined (index 5 doesn't exist in the array)
 
 
   //you can check undefined
