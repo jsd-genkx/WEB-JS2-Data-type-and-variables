@@ -1,12 +1,12 @@
 //----------------------------------------------------Inventory----------------------------//
 //Primivite
 
-// let milk_unit_price = 5.50;
-// let soya_milk_unit_price = milk_unit_price;
+// let milk_unitPrice = 5.50;
+// let soya_milk_unitPrice = milk_unitPrice;
 
-// milk_unit_price = 7.25;
-// console.log (milk_unit_price);
-// console.log(soya_milk_unit_price);
+// milk_unitPrice = 7.25;
+// console.log (milk_unitPrice);
+// console.log(soya_milk_unitPrice);
 
 
 //-----------------------------------------------------------------------------------------//

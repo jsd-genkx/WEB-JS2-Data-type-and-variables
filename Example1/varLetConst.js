@@ -1,31 +1,36 @@
- //-------------------------------------------Inventory--------------------------------------
-//  let quantity_in_stock = 100;
-//  console.log("Initial Quantity:", quantity_in_stock); // Output: 100
+//-------------------------------------------Inventory--------------------------------------
+// let quantityInStock = 100;
+// console.log("Initial Quantity:", quantityInStock); // Output: 100
 
-// // Simulating a purchase where the quantity decreases
-//  quantity_in_stock -= 50;
-//  console.log("Updated Quantity:", quantity_in_stock); // Output: 50
+// quantityInStock = quantityInStock - 50;
+// console.log("Updated Quantity:", quantityInStock); // Output: 50
+
+// quantityInStock += 500;
+// console.log("Updated Quantity:", quantityInStock); // Output: 550
+
+// quantityInStock++; 
+// console.log("Updated Quantity:", quantityInStock); // Output: 551
 
 
-// let product_name = 'Oat Milk';
-// console.log("Product Name:", product_name);
+// let productName = 'Oat Milk';
+// console.log("Product Name:", productName);
 
-// //Change product name
-// product_name = "Soya Milk";
-// console.log("New Product Name:", product_name);
+// // //Change product name
+// productName = "Soya Milk";
+// console.log("New Product Name:", productName);
 
 
 // const productId = 1;
 // console.log("Product ID:", productId); // Output: 1
 
-// // Attempting to reassign the product ID will result in an error
+// // // Attempting to reassign the product ID will result in an error
 // productId = 2; // Error: Assignment to constant variable.
 
 
 // var discountPercentage = 10;
 // console.log("Discount Percentage:", discountPercentage); // Output: 10
 
-// // Modifying the discount percentage
+// // // Modifying the discount percentage
 // discountPercentage = 15;
 // console.log("Updated Discount Percentage:", discountPercentage); // Output: 15
 
@@ -43,20 +48,20 @@
 //   console.log("Updated Quantity:", quantityInStock); // Output: 50
 // }
 
-// // // // Trying to access quantityInStock here will result in an error
+// // // // // Trying to access quantityInStock here will result in an error
 //  console.log("Quantity Outside Scope:", quantityInStock); // Error: quantityInStock is not defined
 
 
 // {
-//   const product_id = 1;
-//   console.log("Product ID:", product_id); // Output: 1
+//   const productId = 1;
+//   console.log("Product ID:", productId); // Output: 1
 
 //   // Attempting to reassign the product ID will result in an error
 //   // productId = 2; // Error: Assignment to constant variable.
 // }
 
 // // Trying to access productId here will result in an error
-// console.log("Product ID Outside Scope:", product_id); // Error: productId is not defined
+// console.log("Product ID Outside Scope:", productId); // Error: productId is not defined
 
 // var discountPercentage = 100;
 // {

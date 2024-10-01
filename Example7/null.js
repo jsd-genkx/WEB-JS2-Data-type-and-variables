@@ -12,13 +12,13 @@ displayDiscount(discount);
 
 //a property of an object doesn't exist or is not applicable
 let product = {
-  product_id: 101,
-  product_name: "Soya Milk",
-  unit_price: null  // Price is not set
+  productId: 101,
+  productName: "Soya Milk",
+  unitPrice: null  // Price is not set
 };
-console.log(product.unit_price);
-console.log(`The price for ${product.product_name} is ${product.unit_price === null ? 'not set yet' : `$${product.unit_price}`}.`);
-console.log(`The products quantity in stock: ${product.quantity_in_stock}`) //undifined 
+console.log(product.unitPrice);
+console.log(`The price for ${product.productName} is ${product.unitPrice === null ? 'not set yet' : `$${product.unitPrice}`}.`);
+console.log(`The products quantity in stock: ${product.quantityInStock}`) //undifined 
 
 
 

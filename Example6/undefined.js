@@ -1,12 +1,12 @@
 //-------------------------------------------------Inventory--------------------------------//
 //variable is declared but not assigned a value
-let product_name;
-console.log(product_name);
+let productName;
+console.log(productName);
 
 //accessing an object property that doesn't exist
 const products = {
-  product_name: 'Oak Milk',
-  unit_price: 30
+  productName: 'Oak Milk',
+  unitPrice: 30
 };
 console.log(products.quantity); // Output: undefined (the property "quantity" doesn't exist)
 
@@ -22,11 +22,11 @@ console.log(products.quantity); // Output: undefined (the property "quantity" do
 
 
  //a function parameter is not provided with an argument
- function addProduct(product_name) {
-  console.log('add new product ' + product_name);
+ function addProduct(productName) {
+  console.log('add new product ' + productName);
 }
 
-addProduct(); // Output: 'add new prodcut, undefined' (product_name parameter is not provided)
+addProduct(); // Output: 'add new prodcut, undefined' (productName parameter is not provided)
 
 
 //an array element doesn't exist

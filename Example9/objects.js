@@ -150,30 +150,30 @@ console.log(person);
 //------------------------------------------------------Inventory--------------------------------//
 const inventory = {
   product1: {
-      product_name: "Sticky Notes",
-      quantity_in_stock: 20,
-      unit_price: 0.8,
+      productName: "Sticky Notes",
+      quantityInStock: 20,
+      unitPrice: 0.8,
       checkStock() {
-        return (this.quantity_in_stock);
+        return (this.quantityInStock);
     }
   },
   product2: {
-      product_name: "Highlighters",
+      productName: "Highlighters",
       quantity_is_stock: 15,
-      unit_price: 2,
+      unitPrice: 2,
       checkStock() {
         return  this.quantity_is_stock;
     }
   },
   product3: {
-      product_name: "All-Purpose Cleaner",
+      productName: "All-Purpose Cleaner",
       product_brand: "The pink stuff",
       size: "500ml",
       scent: "Lemon",
-      quantity_in_stock: null,
-      unit_price: 2.5,
+      quantityInStock: null,
+      unitPrice: 2.5,
       checkStock() {
-        return (this.quantity_in_stock);
+        return (this.quantityInStock);
     }
   }
 };
@@ -182,9 +182,9 @@ const inventory = {
 const selectedProduct = 'product1'; // This value can be dynamic based on user input
 
 // Accessing information about the selected product using dot notation
-console.log(`Product name: ${inventory[selectedProduct].product_name}`);
-console.log(`Quantity in stock: ${inventory[selectedProduct].quantity_in_stock}`);
-console.log(`Unit price: $${inventory[selectedProduct].unit_price}`);
+console.log(`Product name: ${inventory[selectedProduct].productName}`);
+console.log(`Quantity in stock: ${inventory[selectedProduct].quantityInStock}`);
+console.log(`Unit price: $${inventory[selectedProduct].unitPrice}`);
 console.log(`check stock: ${inventory[selectedProduct].checkStock()}`);
 
 
