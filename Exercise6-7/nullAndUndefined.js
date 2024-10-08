@@ -29,11 +29,8 @@ const dataFromDatabase = {
 */
 const productList = ['apple', 'banana', 'mango'];
 
-/*
-  CODE BELOW: display Hello World!
-*/
-if (undefined) {
-  console.log('Heaven!')
+if (undefined) { // CODE THIS LINE: display Hello World!
+  console.log('Hello World!')
 } else {
   console.log('Hell!')
 }
